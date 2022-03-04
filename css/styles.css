@@ -81,7 +81,8 @@ main .contenedor-img {
 
 .contenedor-texto p {
      margin-bottom: 40px;
-     line-height: 50px;
+     line-height: 45px;
+     height: 170px;
 }
 
 .btn-link {

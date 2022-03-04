@@ -1,6 +1,6 @@
-const typed = new Typed('.typed', {
+/*const typed = new Typed('.typed', {
 	strings: [
-		'<i class="destacado"> Próximamente...</i>',
+		'<i class="destacado"></i>',
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
@@ -15,4 +15,4 @@ const typed = new Typed('.typed', {
 	showCursor: true, // Mostrar cursor palpitanto
 	cursorChar: '|', // Caracter para el cursor
 	contentType: 'html', // 'html' o 'null' para texto sin formato
-});
+});*/
