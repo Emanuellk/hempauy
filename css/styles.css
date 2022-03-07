@@ -1,10 +1,11 @@
 * {
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
 }
 img {
 	width: 100%;
+     background-size: cover;
+     margin-left: 26px;
      height: 100%;
      object-fit: contain;
 }
@@ -19,12 +20,6 @@ body {
      align-items: center;
 }
 
-.logo{
-    margin: 20px;
-    margin-right: 50px;
-    max-width: 300px;
-    height: 95px;
-}
 
 .contenedor {
 	background-color: #fff;
@@ -68,7 +63,6 @@ main .contenedor-img {
 
 .contenedor-texto .titulo {
      font-size: 50px;
-     height: 100px;
      font-weight: normal;
      margin-bottom: 40px;
 }
@@ -104,9 +98,5 @@ main .contenedor-img {
      main {
           flex-direction: column;
           text-align: center;
-     }
-
-     main .contenedor-img {
-          margin-bottom: 40px;
      }
 }
