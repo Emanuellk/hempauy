@@ -64,7 +64,7 @@
               >
             </li>
             <li>
-              <a href="hempa.html"
+              <a href=""
                 ><img class="icon-nav-li" src="img/icons/hemp.jpg" />Hemp</a
               >
             </li>
@@ -84,79 +84,34 @@
           />
         </nav>
       </div>
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="img/carousel/slide1.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="img/carousel/slide2.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleControls"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
     </header>
-    <section id="banner-icons">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-2 col-4">
-            <img src="img/icons/organic_hemppng.svg" />
-          </div>
-          <div class="col-md-2 col-4">
-            <img src="img/icons/etical_fabric_ong.svg" />
-          </div>
-          <div class="col-md-2 col-4">
-            <img src="img/icons/slowfashion_png.svg" />
-          </div>
-          <div class="col-md-2 col-4">
-            <img src="img/icons/fairtrade_png.svg" />
-          </div>
-          <div class="col-md-2 col-4">
-            <img src="img/icons/handmande_png.svg" />
-          </div>
-          <div class="col-md-2 col-4">
-            <img src="img/icons/earth_friendly_ong.svg" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="productos-destacados">
-      <div class="container">
+    <section id="principal-producto">
+      <div class="container mt-5">
         <div class="row">
-          <h2 class="col-md-12">Productos Destacados</h2>
-        </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <img id="imagen" class="w-100" src="" />
+          </div>
+          <div class="col-md-6 ps-5 pt-3">
+            <h2 id="titulo-producto"></h2>
+            <br />
+            <p class="precio-producto">
+              Precio: $ <span id="precio-producto"></span>
+            </p>
+            <br />
+            <p id="descripcion-producto"></p>
 
-        <div id="contenedor-productos" class="d-flex"></div>
+            <button
+              class="btn btn-success"
+              onclick="agregarAlCarrito(this.id);"
+              id="agregar-carrito"
+            >
+              AGREGAR AL CARRITO
+              <img class="cart-icon" src="img/icons/plus.png" />
+            </button>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
       </div>
     </section>
     <button
@@ -166,8 +121,6 @@
     >
       <img class="icon-cart" src="img/icons/shopping-cart.png" />
     </button>
-
-    
     <!-- Modal Carrito -->
     <div
       class="modal fade "
@@ -202,7 +155,7 @@
         </div>
       </div>
     </div>
-    
+
     <section id="footer">
       <h5 class="text-footer">  Desarrollado por <a href="https://linkbe.me/Cigma" target="_blank">Cigma</a> - Copyright © 2022</h5>
       <div class="container">
