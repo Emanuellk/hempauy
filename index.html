@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hempa</title>
+    <link rel="shortcut icon" href="img/icons/icono-hemp.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Meta tags -->
+    <!-- Primary Meta Tags -->
+    <title>Hempa</title>
+    <meta name="title" content="Hempa">
+    <meta name="description" content="Ropa de cañamo y fibras orgánicas, hecha por mujeres emprendedoras. Industria Uruguaya.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Hempa">
+    <meta property="og:description" content="Ropa de cañamo y fibras orgánicas, hecha por mujeres emprendedoras. Industria Uruguaya.">
+    <meta property="og:image" content="img/fotos/banner-valores.JPG">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Hempa">
+    <meta property="twitter:description" content="Ropa de cañamo y fibras orgánicas, hecha por mujeres emprendedoras. Industria Uruguaya.">
+    <meta property="twitter:image" content="img/fotos/banner-valores.JPG">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="index.html"
+            ><img class="logo-nav" src="img/logo-hempa.jpg"
+          /></a>
+          <ul id="ul__nav" class="ul__nav">
+            <li>
+              <a href="nosotras.html"
+                ><img class="icon-nav-li" src="img/icons/nosotras.jpg" />
+                Nosotras</a
+              >
+            </li>
+            <li>
+              <a href="valores.html"
+                ><img
+                  class="icon-nav-li"
+                  src="img/icons/vision.jpg"
+                />Valores</a
+              >
+            </li>
+            <li>
+              <a href="hempa.html"
+                ><img class="icon-nav-li" src="img/icons/hemp.jpg" />Hemp</a
+              >
+            </li>
+            <li>
+              <a href="tienda.html"
+                ><img
+                  class="icon-nav-li"
+                  src="img/icons/coleccion.jpg"
+                />Tienda</a
+              >
+            </li>
+          </ul>
+          <img
+            id="icon-menu"
+            class="icon-menu-movil"
+            src="img/icons/menu.png"
+          />
+        </nav>
+      </div>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="img/carousel/slide1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="img/carousel/slide2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <section id="banner-icons">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-2 col-4">
+            <img src="img/icons/organic_hemppng.svg" />
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/icons/etical_fabric_ong.svg" />
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/icons/slowfashion_png.svg" />
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/icons/fairtrade_png.svg" />
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/icons/handmande_png.svg" />
+          </div>
+          <div class="col-md-2 col-4">
+            <img src="img/icons/earth_friendly_ong.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="productos-destacados">
+      <div class="container">
+        <div class="row">
+          <h2 class="col-md-12">Productos Destacados</h2>
+        </div>
+
+        <div id="contenedor-productos" class="d-flex"></div>
+      </div>
+    </section>
+    <button
+      id="carrito-flotante"
+      data-bs-toggle="modal"
+      data-bs-target="#modalCarrito"
+    >
+      <img class="icon-cart" src="img/icons/shopping-cart.png" />
+    </button>
+
+    
+    <!-- Modal Carrito -->
+    <div
+      class="modal fade "
+      id="modalCarrito"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              CARRITO DE COMPRAS
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul id="listado-compras"></ul>
+
+            <p>TOTAL A PAGAR: $<span id="total-precio-carrito"></span></p>
+          </div>
+          <div class="modal-footer">
+            <button id="btn-comprar" type="button" class="btn btn-success">
+              Seguir con la compra <img class="cart-icon" src="img/icons/whatsapp.png">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <section id="footer">
+      <h5 class="text-footer">  Desarrollado por <a href="https://linkbe.me/Cigma" target="_blank">Cigma</a> - Copyright © 2022</h5>
+      <div class="container">
+        <div class="row icon-footer">
+          <div class="col-md-2 col-4">
+            <a href="https://www.instagram.com/hempa.uy/?hl=es" target="_blank"><img class="" src="img/icons/instagram.png"/></a>
+          </div>
+          <div class="col-md-2 col-4">
+            <a href="https://www.facebook.com/hempa.uy" target="_blank"><img class="" src="img/icons/facebook.png"/></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+    <script src="js/nav.js"></script>
+  </body>
+</html>

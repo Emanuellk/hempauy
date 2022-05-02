@@ -1,0 +1,330 @@
+.logo-nav {
+    width: 150px;
+    display: inline;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-family: 'Sacramento', cursive;
+    font-size: 28px;
+    height: 120px;
+}
+header {
+    background: #F6F6F6;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+nav ul li:last-child {
+    margin-right: 0;
+}
+.icon-nav-li {
+    width: 45px;
+    display: block;
+    margin: 0 auto;
+}
+
+.icon-menu-movil {
+    width: 40px;
+    display: none;
+}
+/* banner icons */
+#banner-icons {
+    width: 100%;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #C5CCB2;
+    margin-top: 50px;
+}
+
+.icon{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#banner-nosotras {
+    width: 100%;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: #C5CCB2;
+    margin-top: 50px;
+}
+
+#banner-icons img {
+    width: 120px;
+}
+
+#productos-destacados {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+#productos-destacados h2{
+    font-family: 'Sacramento', cursive;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#productos-coleccion h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#productos-destacados .card:last-child {
+    margin-right: 0px;
+}
+
+/* Footer */
+#footer{
+    width: 100%;
+    min-height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background: #DAE5D0;
+    margin-top: 50px;
+}
+
+.icon-footer{
+    margin-left: 50%;
+}
+
+.text-footer{
+   margin-left: 50px;
+   font-size: 14px;
+   text-align: center;
+   padding-left: 5%;
+   padding-right: 30%;
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    #banner-icons img {
+        width: 100px;
+    }
+    #contenedor-productos {
+        flex-direction: column;
+    }
+    .icon-menu-movil {
+       display: inline-block;
+       cursor: pointer;
+    }
+    .icon-nav-li {
+        width: 45px;
+        display: inline;
+        margin: 5px 30px;
+    }
+    nav ul li {
+       margin-top: 25px;
+        
+    }
+    .ul__nav {
+        display: none;
+    }
+    .carousel-item img,.valores-banner{
+        width: 100vw;
+        height: 300px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+    .icon-footer{
+        margin-left: 38%;
+   }
+   
+   .text-footer{
+       margin-left: 30px;
+       font-size: 14px;
+       text-align: center;
+       padding-left: 5%;
+       padding-right: 5%;
+   }
+}
+
+
+.ul__nav.show {
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    position: absolute;
+    top: 110px;
+    left: 0;
+    background: #F6F6F6;
+    width: 100%;
+}
+#carrito-flotante {
+    position: fixed;
+    right: 15px;
+    top: 70vh;
+    background: #a19787;
+    border: 0;
+    border-radius: 50%;
+    padding: 10px;
+    display: none;
+}
+
+.icon-delete-carro {
+    width: 30px;
+    cursor: pointer;
+    
+}
+.li__carrito {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.btn-deletecarrito {
+    border: 0;
+    background: none;
+}
+
+.icon-cart {
+    width: 50px;
+}
+
+.cart-icon{
+    width: 22px;
+    margin:4px;
+    margin-bottom: 7px;
+}
+
+.img-carrito{
+    border-radius: 10px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    width: 90px;
+}
+
+.modal-body {
+     overflow-y: auto; 
+     height:300px; 
+}
+
+
+.titulo-carrito{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.precio-carrito{
+    color: #4B531C;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.shopping-bag-icon{
+    display: inline-block;
+    width: 50px;
+    padding-left: 15px;
+    margin-top: -24px;
+}
+
+.buttoms-position{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: .5s;
+}
+
+.card:hover .buttoms-position{
+    opacity: 1;
+}
+
+.foto-mision{
+    height: 70%;
+}
+
+.titulo-margin{
+    margin-top: 30px;
+}
+
+.foto-pureza{
+    height: 40%;
+}
+
+.titulos-sacramento{
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+}
+
+.iconos-valores{
+    width: 150px;
+}
+
+.icono-hemp{
+    width: 320px;
+}
+
+.parrafo-hemp{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    line-height: 45px;
+    font-style: normal;
+}
+
+.fibra-img{
+    border-radius: 16px;
+}
+
+.li-hemp{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+    font-style: normal;
+}
+
+.parrafo-valores{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+
+.parrafo-nosotras{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.titulo4-nosotras{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#titulo-producto {
+    font-size: 50px;
+    font-family: 'Sacramento', cursive;
+}
+.precio-producto {
+    font-size: 20px;
+    font-weight: bold;
+}
+#descripcion-producto {
+    font-size: 20px;
+}

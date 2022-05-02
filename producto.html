@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hempa</title>
+    <link rel="shortcut icon" href="img/icons/icono-hemp.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Meta tags -->
+    <!-- Primary Meta Tags -->
+    <title>Hempa</title>
+    <meta name="title" content="Hempa">
+    <meta name="description" content="Ropa de cañamo y fibras orgánicas, hecha por mujeres emprendedoras. Industria Uruguaya.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="Hempa">
+    <meta property="og:description" content="Ropa de cañamo y fibras orgánicas, hecha por mujeres emprendedoras. Industria Uruguaya.">
+    <meta property="og:image" content="img/fotos/banner-valores.JPG">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="Hempa">
+    <meta property="twitter:description" content="Ropa de cañamo y fibras orgánicas, hecha por mujeres emprendedoras. Industria Uruguaya.">
+    <meta property="twitter:image" content="img/fotos/banner-valores.JPG">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <a href="index.html"
+            ><img class="logo-nav" src="img/logo-hempa.jpg"
+          /></a>
+          <ul id="ul__nav" class="ul__nav">
+            <li>
+              <a href="nosotras.html"
+                ><img class="icon-nav-li" src="img/icons/nosotras.jpg" />
+                Nosotras</a
+              >
+            </li>
+            <li>
+              <a href="valores.html"
+                ><img
+                  class="icon-nav-li"
+                  src="img/icons/vision.jpg"
+                />Valores</a
+              >
+            </li>
+            <li>
+              <a href=""
+                ><img class="icon-nav-li" src="img/icons/hemp.jpg" />Hemp</a
+              >
+            </li>
+            <li>
+              <a href="tienda.html"
+                ><img
+                  class="icon-nav-li"
+                  src="img/icons/coleccion.jpg"
+                />Tienda</a
+              >
+            </li>
+          </ul>
+          <img
+            id="icon-menu"
+            class="icon-menu-movil"
+            src="img/icons/menu.png"
+          />
+        </nav>
+      </div>
+    </header>
+    <section id="principal-producto">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-4">
+            <img id="imagen" class="w-100" src="" />
+          </div>
+          <div class="col-md-6 ps-5 pt-3">
+            <h2 id="titulo-producto"></h2>
+            <br />
+            <p class="precio-producto">
+              Precio: $ <span id="precio-producto"></span>
+            </p>
+            <br />
+            <p id="descripcion-producto"></p>
+
+            <button
+              class="btn btn-success"
+              onclick="agregarAlCarrito(this.id);"
+              id="agregar-carrito"
+            >
+              AGREGAR AL CARRITO
+              <img class="cart-icon" src="img/icons/plus.png" />
+            </button>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+    </section>
+    <button
+      id="carrito-flotante"
+      data-bs-toggle="modal"
+      data-bs-target="#modalCarrito"
+    >
+      <img class="icon-cart" src="img/icons/shopping-cart.png" />
+    </button>
+    <!-- Modal Carrito -->
+    <div
+      class="modal fade "
+      id="modalCarrito"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              CARRITO DE COMPRAS
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul id="listado-compras"></ul>
+
+            <p>TOTAL A PAGAR: $<span id="total-precio-carrito"></span></p>
+          </div>
+          <div class="modal-footer">
+            <button id="btn-comprar" type="button" class="btn btn-success">
+              Seguir con la compra <img class="cart-icon" src="img/icons/whatsapp.png">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="footer">
+      <h5 class="text-footer">  Desarrollado por <a href="https://linkbe.me/Cigma" target="_blank">Cigma</a> - Copyright © 2022</h5>
+      <div class="container">
+        <div class="row icon-footer">
+          <div class="col-md-2 col-4">
+            <a href="https://www.instagram.com/hempa.uy/?hl=es" target="_blank"><img class="" src="img/icons/instagram.png"/></a>
+          </div>
+          <div class="col-md-2 col-4">
+            <a href="https://www.facebook.com/hempa.uy" target="_blank"><img class="" src="img/icons/facebook.png"/></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+    <script src="js/nav.js"></script>
+  </body>
+</html>
