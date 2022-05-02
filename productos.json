@@ -1,155 +1,148 @@
 [
     {
         "nombre": "Vestido Otoño",
-        "descripcion": "Tejido: cáñamo y algodón orgánico.",
+        "descripcion": "Vestido largo en morley blanco con detalle thumb hole. Opcional tajo al costado. Tejido: cáñamo y algodón orgánico.",
         "precio": 5000,
         "imagen": "img/productos/vestido-otoño.jpg",
         "destacado":1
     },
     {
         "nombre": "Pollera Alfa",
-        "descripcion": "Tejido: Pique Interlook - Composición de tejido: 20% cáñamo, 50% lana merino y 30% algodón orgánico.",
-        "precio": 6000,
+        "descripcion": "Pollera estilo mermaid, realizada con lana merino. Tejido: Pique Interlook - Composición de tejido: 20% cáñamo, 50% lana merino y 30% algodón orgánico.",
+        "precio": 4000,
         "imagen": "img/productos/pollera-alfa.jpg",
         "destacado":1
     },
     {
         "nombre": "Buzo Capullo",
-        "descripcion": "Tejido: cáñamo y bambú.",
+        "descripcion": "Buzo con cuello opción capucha, en morley color crudo. Mangas ligeramente acampanadas y largo por debajo de la cadera. Talle S: $3000. Talle M y L: $3200. / Tejido: cáñamo y bambú.",
         "precio": 3000,
         "imagen": "img/productos/buzo-capullo.jpg",
         "destacado":1
     },
     {
         "nombre": "Top Simpleza",
-        "descripcion": "Tejido: Ribb - Composición de tejido: 32% cáñamo, 60% algodón orgánico y 8% lycra.",
+        "descripcion": "Top crop sin mangas con espalda pronunciada. Tejido: Ribb - Composición de tejido: 32% cáñamo, 60% algodón orgánico y 8% lycra.",
         "precio": 1500,
         "imagen": "img/productos/top-simpleza.jpg",
         "destacado":1
     },
     {
         "nombre": "Buzo Calma",
-        "descripcion": "Tejido: Interlook y Footer - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
-        "precio": 4400,
+        "descripcion": "Buzo con cuello amplio en v, sisa caída y bolsillos delanteros. Tejido: Interlook y Footer - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
+        "precio": 3000,
         "imagen": "img/productos/buzo-calma.jpg",
         "destacado":0
     },
     {
         "nombre": "Poncho Viento",
-        "descripcion": "Tejido: Footer - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
-        "precio": 4000,
+        "descripcion": "Poncho súper amplio realizado en footer con mangas 3/4 y capucha. Tejido: Footer - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
+        "precio": 3000,
         "imagen": "img/productos/poncho-viento.jpg",
         "destacado":0
     },
     {
         "nombre": "Poncho Amanecer",
-        "descripcion": "Tejido: Jersey y Morley - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
-        "precio": 3400,
+        "descripcion": "Poncho largo a la cadera realizado en jersey con detalle de mangas ajustadas en morley. Tejido: Jersey y Morley - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
+        "precio": 2300,
         "imagen": "img/productos/poncho-amanecer.jpg",
         "destacado":0
     },
     {
         "nombre": "Poncho Atardecer",
         "descripcion": "Tejido: Footer y Morley - Composición de tejido: 50% cáñamo y 50% algodón orgánico.",
-        "precio": 4300,
+        "precio": 4000,
         "imagen": "img/productos/poncho-atardecer.jpg",
         "destacado":0
     },
     {
         "nombre": "Top Ying Yang/Ribb",
-        "descripcion": "Reversibles. Tejido: Ribb - Composición de tejido: 32% cáñamo, 60% algodón orgánico y 8% lycra.",
-        "precio": 2500,
+        "descripcion": "Top reversible con mangas 3/4. Tejido: Ribb - Composición de tejido: 32% cáñamo, 60% algodón orgánico y 8% lycra.",
+        "precio": 1700,
         "imagen": "img/productos/Top-Ying-Ribb.jpg",
         "destacado":0
     },
     {
         "nombre": "Top Ying Yang/Lana merino",
-        "descripcion": "Reversibles. Tejido: Pique Interlook - Composición de tejido: 20% cáñamo, 50% lana merino y 30% algodón orgánico.",
+        "descripcion": "Top reversible con mangas 3/4 confeccionado en lana merino. Tejido: Pique Interlook - Composición de tejido: 20% cáñamo, 50% lana merino y 30% algodón orgánico.",
         "precio": 3000,
         "imagen": "img/productos/Lana-merino.jpg",
         "destacado":0
     },
     {
         "nombre": "Capa Mágica/Con mangas",
-        "descripcion": "Tejido: Footer - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
+        "descripcion": "Capa larga con cierre hasta la cadera, manga larga con capucha. Tejido: Footer - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
         "precio": 9000,
         "imagen": "img/productos/capamagica-mangas.jpg",
         "destacado":0
     },
     {
         "nombre": "Capa Mágica/Sin mangas",
-        "descripcion": "Tejido: Footer - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
+        "descripcion": "Capa larga con cierre hasta la cadera, sin mangas con capucha. Tejido: Footer - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
         "precio": 8700,
         "imagen": "img/productos/capa-sin-mangas.jpg",
         "destacado":0
     },
     {
         "nombre": "Remera OM",
-        "descripcion": "Tejido: Interlook - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
-        "precio": 3400,
+        "descripcion": "Remera con manga corta con cuello ajustable. Tejido: Interlook - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
+        "precio": 2700,
         "imagen": "img/productos/remera-om.jpg",
         "destacado":0
     },
     {
         "nombre": "Remera OZ",
-        "descripcion": "Tejido: Interlook - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
-        "precio": 4000,
+        "descripcion": "Remera manga larga con capucha ajustable. Tejido: Interlook - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
+        "precio": 2700,
         "imagen": "img/productos/remera-oz.jpg",
         "destacado":0
     },
     {
         "nombre": "Remera Conclusión",
-        "descripcion": "Tejido: Jersey y Morley - Composición de tejido: 50% cáñamo y 50% algodón orgánico.",
-        "precio": 3000,
+        "descripcion": "Remera manga corta, cuello redondo. Tejido: Jersey y Morley - Composición de tejido: 50% cáñamo y 50% algodón orgánico.",
+        "precio": 2500,
         "imagen": "img/productos/remera-conclusion.jpg",
         "destacado":0
     },
     {
         "nombre": "Vestido Arena/Largo",
-        "descripcion": "Tejido: Morley - Composición de tejido: 50% cáñamo y 50% algodón orgánico.",
-        "precio": 2500,
+        "descripcion": "Sin mangas, escote redondo largo. Tejido: Morley - Composición de tejido: 50% cáñamo y 50% algodón orgánico.",
+        "precio": 1800,
         "imagen": "img/productos/arena-largo.jpg",
         "destacado":0
     },
     {
         "nombre": "Vestido Arena/Corto",
-        "descripcion": "Tejido: Morley - Composición de tejido: 50% cáñamo y 50% algodón orgánico.",
-        "precio": 2300,
+        "descripcion": "Sin mangas, escote redondo. Tejido: Morley - Composición de tejido: 50% cáñamo y 50% algodón orgánico.",
+        "precio": 1800,
         "imagen": "img/productos/arena-corto.jpg",
         "destacado":0
     },
     {
         "nombre": "Vestido Mar",
-        "descripcion": "Tejido: Ribb lycra - Composición de tejido: 32% cáñamo, 60% algodón orgánico y 8% lycra.",
-        "precio": 2500,
+        "descripcion": "Vestido corto semiajustado con escote redondo, espalda pronunciada. Tejido: Ribb lycra - Composición de tejido: 32% cáñamo, 60% algodón orgánico y 8% lycra.",
+        "precio": 1600,
         "imagen": "img/productos/mar-largo.jpg",
         "destacado":0
     },
     {
         "nombre": "Saco ZEN",
-        "descripcion": "Tejido: Morley - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
-        "precio": 4000,
+        "descripcion": "Saco a la cadera, mangas largas con puño y capucha. Tejido: Morley - Composición de tejido: 40% cáñamo y 60% algodón orgánico.",
+        "precio": 3000,
         "imagen": "img/productos/saco-zen.jpg",
         "destacado":0
     },
     {
         "nombre": "Vestido Relax",
-        "descripcion": "Tejido: Morley - Composición de tejido: 50% cáñamo y 50% algodón orgánico.",
-        "precio": 4000,
+        "descripcion": "Vestido largo de mangas largas con capucha ajustable. Tejido: Morley - Composición de tejido: 50% cáñamo y 50% algodón orgánico.",
+        "precio": 3000,
         "imagen": "img/productos/vestido-relax.jpg",
         "destacado":0
     },
     {
-        "nombre": "Tapaojos",
-        "descripcion": "Tejido: bambú y cáñamo. Relleno de guata y elástico forrado con tela.",
-        "precio":400,
-        "imagen": "img/productos/tapaojos.jpg",
-        "destacado":0
-    },
-    {
         "nombre": "Tapaojos Paz",
-        "descripcion": "Hecho con retazos de los tejidos utilizados.",
-        "precio": 500,
+        "descripcion": "Relleno de guata y elástico forrado con tela. Color: crudo, negro y blanco. Tejido: bambú y cáñamo.",
+        "precio":400,
         "imagen": "img/productos/tapaojos-paz.jpg",
         "destacado":0
     }
