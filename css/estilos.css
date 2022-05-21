@@ -127,6 +127,14 @@ nav ul li:last-child {
     #contenedor-productos {
         flex-direction: column;
     }
+
+    #footer-icon{
+        margin-top: 8px;
+        margin-left: 1%;
+        margin-right: 10%;
+    }
+    
+
     .icon-menu-movil {
        display: inline-block;
        cursor: pointer;
@@ -143,12 +151,19 @@ nav ul li:last-child {
     .ul__nav {
         display: none;
     }
+    
     .carousel-item img,.valores-banner{
         width: 100vw;
-        height: 300px;
+        height: 200px;
         object-fit: cover;
         object-position: 50% 50%;
+
     }
+
+    .img-carousel{
+        width: 100vw;
+    }
+
     .icon-footer{
         margin-left: 38%;
    }

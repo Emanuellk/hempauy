@@ -64,7 +64,6 @@ fetch("../productos.json")
 });
 
 function agregarAlCarrito(index) {
-    console.log(data);
     if(window.location.pathname == "/index.html" || window.location.pathname == "/" ||window.location.pathname == "/tienda.html") {
         carrito.push(data[index]);
     }else if(window.location.pathname == "/producto.html") {
