@@ -291,6 +291,12 @@ nav ul li:last-child {
     font-family: 'Sacramento', cursive;
 }
 
+.titulo-contacto{
+    font-size: 40px;
+    font-family: 'Sacramento', cursive;
+}
+
+
 .iconos-valores{
     width: 150px;
 }
@@ -342,4 +348,79 @@ nav ul li:last-child {
 }
 #descripcion-producto {
     font-size: 20px;
+}
+
+/* Sección contacto */
+
+#features{
+    background-color: #fafafa;
+    padding: 5rem 0;
+}
+
+.features_top,
+.features_container{
+    padding: 0 1.5rem;
+
+}
+
+.features_top{
+    text-align: center;
+}
+
+.features_top h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+    color: #4B531C;  
+}
+
+.features_top p{
+    color: rgb(18, 18, 18);
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.features_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.features_item{
+    margin-top: 2rem;
+    text-align: center; 
+}
+
+.features_item:hover{
+    transform: scale(1.2);
+}
+
+.features_item span{
+    font-size: 3.5rem;
+    margin-bottom: 0.3rem;
+    color: #4B531C;
+}
+
+.featureItem_info h4{
+    font-size: 1.3rem;
+    color: #000;
+}
+
+.featureItem_info p{
+    font-size: 1.05rem;
+    color: #2b2d30;   
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+@media (max-width: 768px){
+    .features_top p{
+        padding: 0;
+    }
+
+    .features_container{
+        grid-template-columns: 1fr;
+    }
 }

@@ -13,6 +13,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/estilos.css" />
+
+
+    <!-- Descripción -->
+    <meta name="description" content="Ropa de cañamo y fibras orgánicas, hecha por mujeres emprendedoras. Industria Uruguaya.">
+
+    <!-- Iconos -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,128 +52,101 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <nav>
-            <a href="index.html"
-            ><img class="logo-nav" src="img/logo-hempa.jpg"
-            /></a>
-            <ul id="ul__nav" class="ul__nav">
-            <li>
-                <a href="nosotras.html"
-                ><img class="icon-nav-li" src="img/icons/nosotras.jpg" />
-                Nosotras</a
-                >
-            </li>
-            <li>
-                <a href="valores.html"
-                ><img
-                    class="icon-nav-li"
-                    src="img/icons/vision.jpg"
-                />Valores</a
-                >
-            </li>
-            <li>
-                <a href="hempa.html"
-                ><img class="icon-nav-li" src="img/icons/hemp.jpg" />Hemp</a
-                >
-            </li>
-            <li>
-                <a href="tienda.html"
-                ><img
-                    class="icon-nav-li"
-                    src="img/icons/coleccion.jpg"
-                />Tienda</a
-                >
-            </li>
-            <li>
-                <a href="contacto.html"
-                ><img
-                    class="icon-nav-li"
-                    src="img/icons/contacto.png"
-                />Contacto</a
-                >
-            </li> 
-            </ul>
-            
-            <img
-            id="icon-menu"
-            class="icon-menu-movil"
-            src="img/icons/menu.png"
-            />
-        </nav>
-        </div>
-    </header>
-    <section id="principal-producto">
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-1"></div>
-          <div class="col-md-4">
-            <img id="imagen" class="w-100" src="" />
-          </div>
-          <div class="col-md-6 ps-5 pt-3">
-            <h2 id="titulo-producto"></h2>
-            <br />
-            <p class="precio-producto">
-              Precio: $ <span id="precio-producto"></span>
-            </p>
-            <br />
-            <p id="descripcion-producto"></p>
-
-            <button
-              class="btn btn-success"
-              onclick="agregarAlCarrito(this.id);"
-              id="agregar-carrito"
+    <div class="container">
+    <nav>
+        <a href="index.html"
+        ><img class="logo-nav" src="img/logo-hempa.jpg"
+        /></a>
+        <ul id="ul__nav" class="ul__nav">
+        <li>
+            <a href="nosotras.html"
+            ><img class="icon-nav-li" src="img/icons/nosotras.jpg" />
+            Nosotras</a
             >
-              AGREGAR AL CARRITO
-              <img class="cart-icon" src="img/icons/plus.png" />
-            </button>
+        </li>
+        <li>
+            <a href="valores.html"
+            ><img
+                class="icon-nav-li"
+                src="img/icons/vision.jpg"
+            />Valores</a
+            >
+        </li>
+        <li>
+            <a href="hempa.html"
+            ><img class="icon-nav-li" src="img/icons/hemp.jpg" />Hemp</a
+            >
+        </li>
+        <li>
+            <a href="tienda.html"
+            ><img
+                class="icon-nav-li"
+                src="img/icons/coleccion.jpg"
+            />Tienda</a
+            >
+        </li>
+        <li>
+            <a href="contacto.html"
+            ><img
+                class="icon-nav-li"
+                src="img/icons/contacto.png"
+            />Contacto</a
+            >
+        </li> 
+        </ul>
+        
+        <img
+        id="icon-menu"
+        class="icon-menu-movil"
+        src="img/icons/menu.png"
+        />
+    </nav>
+    </div>
+  
+    <!-- Sección contacto -->
+    <section id="features">
+      <div class="container">
+        <div class="features_top">
+          <h1>Información/Pedidos</h1>
+          <p>¿Tienes alguna duda con respecto a tu pedido?
+          </p>
+        </div>
+        
+        <br>
+
+        <div class="features_container">
+          <div class="features_item">
+            <span class="material-symbols-outlined"> settings </span>
+            <div class="featureItem_info">
+              <h4>Consultas
+              </h4>
+              <p>Encantados de ayudar y resolver dudas.</p>
+            </div>
           </div>
-          <div class="col-md-1"></div>
+
+          <div class="features_item">
+            <span class="material-symbols-outlined"> android_dialer </span>
+            <div class="featureItem_info">
+              <h4>Whatsapp / Teléfono
+              </h4>
+              <p>+59891933976</p>
+            </div>
+          </div>
+
+          <div class="features_item">
+            <span class="material-symbols-outlined"> email </span>
+            <div class="featureItem_info">
+              <h4>Email</h4>
+              <p>hempa.uy@gmail.com</p>
+            </div>
+          </div>
+
+          
         </div>
       </div>
     </section>
-    <button
-      id="carrito-flotante"
-      data-bs-toggle="modal"
-      data-bs-target="#modalCarrito"
-    >
-      <img class="icon-cart" src="img/icons/shopping-cart.png" />
-    </button>
-    <!-- Modal Carrito -->
-    <div
-      class="modal fade "
-      id="modalCarrito"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">
-              CARRITO DE COMPRAS
-            </h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body">
-            <ul id="listado-compras"></ul>
 
-            <p>TOTAL A PAGAR: $<span id="total-precio-carrito"></span></p>
-          </div>
-          <div class="modal-footer">
-            <button id="btn-comprar" type="button" class="btn btn-success">
-              Seguir con la compra <img class="cart-icon" src="img/icons/whatsapp.png">
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
+      
     <section id="footer">
       <h5 class="text-footer">  Desarrollado por <a href="https://linkbe.me/Cigma" target="_blank">Cigma</a> - Copyright © 2022</h5>
       <div class="container">
