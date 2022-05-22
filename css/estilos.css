@@ -305,6 +305,7 @@ nav ul li:last-child {
     width: 320px;
 }
 
+
 .parrafo-hemp{
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
@@ -372,7 +373,7 @@ nav ul li:last-child {
     font-size: 2.6rem;
     margin-bottom: 0.5rem;
     line-height: 1.2;
-    color: #4B531C;  
+    color: #4E944F;  
 }
 
 .features_top p{
@@ -400,7 +401,7 @@ nav ul li:last-child {
 .features_item span{
     font-size: 3.5rem;
     margin-bottom: 0.3rem;
-    color: #4B531C;
+    color: #4E944F;
 }
 
 .featureItem_info h4{
@@ -413,6 +414,12 @@ nav ul li:last-child {
     color: #2b2d30;   
     line-height: 2rem;
     font-weight: 300;
+}
+
+
+
+.icono-wpp{
+    width: 50px;
 }
 
 @media (max-width: 768px){
